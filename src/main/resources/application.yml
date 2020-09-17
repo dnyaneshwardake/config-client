@@ -1,0 +1,3 @@
+server:  port: 8085
+
+client.message: ${message}management:  endpoints:    web:      exposure:        include:        - refresh
